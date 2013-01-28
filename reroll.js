@@ -24,7 +24,6 @@ var links = [];
 		for(i = 0, len = links.length; i < len; i++){
 			var link = links[i];
 			newTime = getTime(link.url);
-// console.log(links);
 			if(link.time != undefined && link.time != newTime){
 				setAssetLnk(link.elem, link.url);
 			}
