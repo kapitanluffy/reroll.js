@@ -1,6 +1,6 @@
 function reroll(){
 
-var refresh_rate = 1000;
+var refresh_rate = 500;
 var tags = ['link','script','html'];
 var xhr = window.ActiveXObject ? new ActiveXObject( 'Microsoft.XMLHTTP' ) : new XMLHttpRequest();
 var lm_time;
